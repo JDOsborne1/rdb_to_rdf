@@ -16,6 +16,9 @@ strong_library  <- function(...){
 	
 strong_library("dplyr")
 strong_library("tidyr")
+strong_library("tibble")
+strong_library("rdflib")
+strong_library("purrr")
 
 # connection packages
 
