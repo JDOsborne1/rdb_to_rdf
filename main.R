@@ -18,3 +18,10 @@ print(d)
 conn  <- dbConnect(MariaDB(), user = 'root', password = 'example', host =  '0.0.0.0', port = '3306')
 
 dbListObjects(conn)
+
+## Obtain relationship triples from schema
+
+schemas <- dbGetQuery(conn,  'select "db_name" as object, "has_schema" as relation, TABLE_SCHEMA as predicate from (select distinct TABLE_SCHEMA FROM INFORMATION_SCHEMA.TABLES) schema_list') 
+
+schemas
+
