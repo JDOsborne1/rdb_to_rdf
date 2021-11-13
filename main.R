@@ -29,9 +29,9 @@ tables <- dbGetQuery(conn, 'select TABLE_SCHEMA, TABLE_NAME from INFORMATION_SCH
 
 tables
 
-columns <- dbGetQuery(conn, 'select TABLE_NAME as object, "has_column" as predicate, COLUMN_NAME as subject from INFORMATION_SCHEMA.COLUMNS')
+columns <- dbGetQuery(conn, 'select TABLE_NAME, COLUMN_NAME from INFORMATION_SCHEMA.COLUMNS')
 
-columns
+columns                                 
 constraints <- dbGetQuery(conn, 'select REFERENCED_TABLE_SCHEMA, REFERENCED_TABLE_NAME, REFERENCED_COLUMN_NAME, CONSTRAINT_NAME, TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME from INFORMATION_SCHEMA.KEY_COLUMN_USAGE') 
 
 
@@ -102,5 +102,29 @@ pmap(list(tables_refined$subject, tables_refined$predicate, tables_refined$objec
 tables_construct
 
 rdf_serialize(tables_construct, "tables_test.rdf", format = 'rdfxml')
+
+
+### columns 
+
+columns_refined <- columns %>%
+	rowid_to_column("subject") %>%
+	mutate(
+	       subject = paste0("http://example.com/columns#", subject)
+	       , COLUMN_NAME = paste0("http://example.com/columns#", COLUMN_NAME)
+	       , TABLE_NAME = paste0("http://example.com/tables#", TABLE_NAME)
+	       )%>%
+	select(subject, COLUMN_NAME, TABLE_NAME) %>%
+	pivot_longer(names_to = 'predicate', values_to = 'object', -subject) %>%
+	mutate(predicate = paste0("http://example.com/columns#", predicate))
+
+columns_refined
+
+columns_construct  <- rdf()
+
+pmap(list(columns_refined$subject, columns_refined$predicate, columns_refined$object), rdf_add, rdf = columns_construct)
+
+columns_construct
+
+rdf_serialize(columns_construct, "columns_test.rdf", format = 'rdfxml')
 
 
