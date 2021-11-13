@@ -1,0 +1,1965 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="localhost://">
+  <rdf:Description rdf:about="http://example.com/tables#155">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#28">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#153">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_transactions_summary_by_thread_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#160">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#306">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$schema_table_lock_waits"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#13">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#218">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#table_io_waits_summary_by_table"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#99">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#replication_asynchronous_connection_failover"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#96">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#plugin"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#251">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#schema_index_statistics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#50">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#155">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_transactions_summary_global_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#273">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#4">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#63">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#116">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#107">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#slave_relay_log_info"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#128">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_stages_current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#48">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#98">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#proxies_priv"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#24">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#1">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#273">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#user_summary_by_statement_type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#257">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#301">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#55">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#RESOURCE_GROUPS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#252">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#271">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#257">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#schema_tables_with_full_table_scans"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#31">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_FT_CONFIG"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#5">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#COLLATIONS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#35">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_FT_INDEX_TABLE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#229">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#46">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#KEYWORDS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#290">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#17">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_BUFFER_POOL_STATS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#309">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$schema_tables_with_full_table_scans"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#172">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#keyring_component_status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#283">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#42">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#179">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#190">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#replication_applier_status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#13">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#EVENTS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#179">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#memory_summary_global_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#99">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#236">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#io_by_thread_by_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#209">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#socket_instances"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#111">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#316">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#223">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#65">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#157">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#114">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#time_zone_transition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#292">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$io_global_by_wait_by_bytes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#203">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#session_variables"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#59">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#7">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#COLUMNS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#143">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_statements_summary_by_host_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#129">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#228">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#host_summary_by_file_io"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#4">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#CHECK_CONSTRAINTS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#169">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#82">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#db"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#304">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$schema_flattened_keys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#27">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#132">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_stages_summary_by_host_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#284">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#211">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#socket_summary_by_instance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#21">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_CMPMEM_RESET"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#285">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#242">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#152">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#243">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#memory_by_thread_by_current_bytes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#210">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#socket_summary_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#37">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#272">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#265">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#statements_with_sorting"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#124">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#171">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#hosts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#175">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#152">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_transactions_summary_by_host_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#274">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#version"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#253">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#112">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#163">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_waits_summary_by_user_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#127">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_errors_summary_global_by_error"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#307">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#97">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#procs_priv"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#1">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#ADMINISTRABLE_ROLE_AUTHORIZATIONS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#151">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_transactions_summary_by_account_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#68">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#147">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#112">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#time_zone_leap_second"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#238">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#io_global_by_file_by_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#318">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#294">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$latest_file_io"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#53">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#183">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#performance_timers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#162">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_waits_summary_by_thread_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#191">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#replication_applier_status_by_coordinator"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#106">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#slave_master_info"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#122">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#175">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#memory_summary_by_account_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#300">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#300">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$processlist"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#271">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#user_summary_by_stages"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#32">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#284">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$host_summary_by_statement_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#2">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#APPLICABLE_ROLES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#94">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#121">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#data_locks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#138">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#19">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#215">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#133">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#22">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_CMP_PER_INDEX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#151">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#263">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#258">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#108">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#316">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$statements_with_temp_tables"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#71">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#224">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#users"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#244">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#91">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#help_relation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#299">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#310">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#282">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#92">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#202">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#session_status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#311">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#74">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#TRIGGERS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#180">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#320">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#233">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#87">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#326">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#158">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#321">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$user_summary_by_statement_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#286">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#167">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#file_summary_by_instance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#229">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#host_summary_by_file_io_type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#102">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#264">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#statements_with_runtimes_in_95th_percentile"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#47">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#58">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#275">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#60">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#264">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#48">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#OPTIMIZER_TRACE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#93">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#9">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#156">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_waits_current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#166">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#303">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$ps_schema_table_statistics_io"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#115">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#time_zone_transition_type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#161">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_waits_summary_by_instance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#54">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#REFERENTIAL_CONSTRAINTS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#195">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#67">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#171">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#278">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#86">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#general_log"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#78">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#VIEW_ROUTINE_USAGE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#311">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$statement_analysis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#299">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$memory_global_total"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#28">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_FOREIGN"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#139">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#319">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$user_summary_by_file_io_type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#189">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#249">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#304">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#78">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#39">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#176">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#memory_summary_by_host_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#41">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_TABLESPACES_BRIEF"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#70">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#94">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#innodb_table_stats"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#234">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#innodb_buffer_stats_by_table"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#139">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_statements_history"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#154">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#260">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#session_ssl_status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#84">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#engine_cost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#159">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_waits_summary_by_account_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#320">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$user_summary_by_stages"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#36">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#84">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#158">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_waits_history_long"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#18">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#255">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#schema_table_statistics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#80">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#columns_priv"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#181">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#323">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#309">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#46">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#2">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#180">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#metadata_locks"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#142">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#201">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#session_connect_attrs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#8">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#COLUMNS_EXTENSIONS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#141">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_statements_summary_by_account_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#120">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#data_lock_waits"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#164">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_waits_summary_global_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#270">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#286">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$innodb_buffer_stats_by_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#285">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$host_summary_by_statement_type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#132">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#201">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#105">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#servers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#167">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#68">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#TABLESPACES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#22">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#281">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#254">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#schema_table_lock_waits"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#297">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#33">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_FT_DELETED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#326">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$waits_by_user_by_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#174">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#log_status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#76">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#288">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$innodb_lock_waits"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#204">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#325">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#138">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_statements_histogram_global"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#287">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#16">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_BUFFER_PAGE_LRU"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#93">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#innodb_index_stats"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#293">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#193">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#replication_asynchronous_connection_failover"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#59">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#ROUTINES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#272">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#user_summary_by_statement_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#81">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#231">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#268">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#user_summary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#24">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_CMP_RESET"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#244">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#memory_by_user_by_current_bytes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#146">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#302">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$ps_digest_avg_latency_distribution"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#118">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#binary_log_transaction_compression_stats"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#186">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#307">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$schema_table_statistics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#172">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#40">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_TABLESPACES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#141">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#165">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#file_instances"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#29">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_FOREIGN_COLS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#212">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#status_by_account"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#102">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#replication_group_member_actions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#31">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#262">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#105">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#73">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#TABLE_PRIVILEGES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#123">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#183">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#17">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#319">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#163">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#98">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#306">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#134">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_stages_summary_by_user_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#245">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#memory_global_by_current_bytes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#57">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#ROLE_ROUTINE_GRANTS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#239">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#io_global_by_wait_by_bytes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#225">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#variables_by_thread"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#261">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#statement_analysis"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#41">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#130">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#128">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#214">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#status_by_thread"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#62">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#9">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#COLUMN_PRIVILEGES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#101">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#280">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#204">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#setup_actors"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#66">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#ST_UNITS_OF_MEASURE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#174">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#185">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#prepared_statements_instances"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#267">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#sys_config"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#118">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#324">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#293">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$io_global_by_wait_by_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#282">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$host_summary_by_file_io_type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#86">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#322">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#54">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#182">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#266">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#247">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#metrics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#235">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#innodb_lock_waits"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#191">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#166">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#file_summary_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#221">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#256">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#schema_table_statistics_with_buffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#246">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#154">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_transactions_summary_by_user_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#173">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#keyring_keys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#177">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#106">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#200">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#190">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#255">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#188">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#replication_applier_filters"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#240">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#6">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#COLLATION_CHARACTER_SET_APPLICABILITY"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#62">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#SCHEMA_PRIVILEGES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#96">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#222">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#159">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#147">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_statements_summary_global_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#236">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#165">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#146">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_statements_summary_by_user_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#90">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#help_keyword"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#288">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#25">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#232">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#host_summary_by_statement_type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#279">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#waits_global_by_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#214">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#198">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#12">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#ENGINES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#21">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#83">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#137">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#115">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#52">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#PROCESSLIST"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#209">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#10">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#80">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#277">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#164">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#45">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_VIRTUAL"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#227">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#310">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$session"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#153">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#327">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$waits_global_by_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#95">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#266">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#statements_with_temp_tables"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#92">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#help_topic"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#140">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_statements_history_long"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#144">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_statements_summary_by_program"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#36">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_INDEXES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#49">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#148">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#77">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#VIEWS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#205">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#85">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#func"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#109">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#246">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#memory_global_total"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#274">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#212">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#197">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#replication_group_member_stats"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#61">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#25">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_COLUMNS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#239">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#230">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#14">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#FILES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#108">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#slave_worker_info"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#313">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#267">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#173">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#142">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_statements_summary_by_digest"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#110">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#tables_priv"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#275">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#wait_classes_global_by_avg_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#51">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#PLUGINS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#88">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#gtid_executed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#3">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#194">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#replication_asynchronous_connection_failover_managed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#3">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#CHARACTER_SETS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#117">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#291">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$io_global_by_file_by_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#185">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#130">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_stages_history_long"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#73">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#38">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_SESSION_TEMP_TABLESPACES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#192">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#71">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#TABLE_CONSTRAINTS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#224">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#207">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#setup_objects"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#129">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_stages_history"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#29">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#43">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_TEMP_TABLE_INFO"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#122">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#error_log"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#265">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#202">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#196">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#116">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#user"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#297">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$memory_by_user_by_current_bytes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#231">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#host_summary_by_statement_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#15">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#245">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#157">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_waits_history"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#177">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#memory_summary_by_thread_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#216">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#250">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#schema_auto_increment_columns"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#243">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#10">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#COLUMN_STATISTICS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#126">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#91">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#323">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$wait_classes_global_by_avg_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#43">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#58">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#ROLE_TABLE_GRANTS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#237">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#181">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#mutex_instances"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#298">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$memory_global_by_current_bytes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#248">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#processlist"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#120">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#226">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#213">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#222">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#user_defined_functions"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#90">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#168">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#global_status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#19">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_CMP"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#205">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#setup_consumers"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#292">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#34">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_FT_INDEX_CACHE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#149">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_transactions_history"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#302">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#301">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$ps_digest_95th_percentile_by_avg_us"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#64">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#45">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#145">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_statements_summary_by_thread_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#75">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#5">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#33">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#109">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#slow_log"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#104">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#server_cost"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#305">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#254">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#211">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#170">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#host_cache"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#32">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_FT_DEFAULT_STOPWORD"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#64">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#ST_GEOMETRY_COLUMNS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#50">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#PARTITIONS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#101">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#replication_group_configuration_version"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#298">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#121">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#150">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#83">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#default_roles"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#35">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#220">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#threads"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#38">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#295">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$memory_by_host_by_current_bytes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#107">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#216">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#table_handles"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#219">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#134">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#240">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#io_global_by_wait_by_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#89">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#169">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#global_variables"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#325">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$waits_by_host_by_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#253">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#schema_redundant_indexes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#218">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#168">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#258">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#schema_unused_indexes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#110">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#136">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#199">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#rwlock_instances"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#184">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#67">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#TABLES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#11">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#ENABLED_ROLES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#72">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#TABLE_CONSTRAINTS_EXTENSIONS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#74">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#184">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#persisted_variables"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#199">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#20">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#176">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#314">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$statements_with_runtimes_in_95th_percentile"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#111">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#time_zone"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#104">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#103">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#role_edges"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#279">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#7">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#278">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#waits_by_user_by_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#210">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#125">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#308">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$schema_table_statistics_with_buffer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#226">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#variables_info"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#66">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#315">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$statements_with_sorting"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#219">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#table_lock_waits_summary_by_table"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#296">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#303">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#44">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#315">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#249">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#ps_check_lost_instrumentation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#221">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#tls_channel_status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#79">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#VIEW_TABLE_USAGE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#63">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#STATISTICS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#192">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#replication_applier_status_by_worker"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#178">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#305">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$schema_index_statistics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#208">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#setup_threads"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#75">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#USER_ATTRIBUTES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#289">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$io_by_thread_by_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#82">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#250">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#6">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#203">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#15">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_BUFFER_PAGE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#56">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#162">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#65">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#ST_SPATIAL_REFERENCE_SYSTEMS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#12">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#187">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#270">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#user_summary_by_file_io_type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#161">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#34">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#313">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$statements_with_full_table_scans"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#314">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#223">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#user_variables_by_thread"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#189">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#replication_applier_global_filters"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#256">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#60">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#SCHEMATA"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#26">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_DATAFILES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#123">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_errors_summary_by_account_by_error"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#137">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_statements_histogram_by_digest"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#260">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#321">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#259">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#session"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#241">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#latest_file_io"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#117">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#accounts"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#232">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#23">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_CMP_PER_INDEX_RESET"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#103">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#149">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#40">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#133">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_stages_summary_by_thread_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#44">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_TRX"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#145">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#119">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#cond_instances"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#119">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#27">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_FIELDS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#30">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_FT_BEING_DELETED"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#217">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#69">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#TABLESPACES_EXTENSIONS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#51">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#16">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#182">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#objects_summary_global_by_type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#276">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#140">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#287">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$innodb_buffer_stats_by_table"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#8">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#30">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#100">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#replication_asynchronous_connection_failover_managed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#18">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_CACHED_INDEXES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#228">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#77">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#196">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#replication_connection_status"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#289">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#195">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#replication_connection_configuration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#87">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#global_grants"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#225">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#79">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#49">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#PARAMETERS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#291">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#85">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#200">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#session_account_connect_attrs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#252">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#schema_object_overview"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#208">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#11">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#131">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#100">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#143">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#186">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#processlist"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#281">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$host_summary_by_file_io"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#234">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#127">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#14">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#114">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#57">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#277">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#waits_by_host_by_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#308">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#72">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#327">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#131">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_stages_summary_by_account_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#213">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#status_by_host"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#276">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#wait_classes_global_by_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#70">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#TABLES_EXTENSIONS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#113">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#time_zone_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#259">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#227">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#host_summary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#136">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_statements_current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#261">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#220">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#47">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#KEY_COLUMN_USAGE"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#312">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$statements_with_errors_or_warnings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#125">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_errors_summary_by_thread_by_error"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#248">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#156">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#268">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#193">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#88">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#247">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#81">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#component"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#26">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#263">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#statements_with_full_table_scans"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#312">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#215">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#status_by_user"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#42">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_TABLESTATS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#178">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#memory_summary_by_user_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#113">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#324">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$wait_classes_global_by_latency"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#95">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#password_history"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#251">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#37">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_METRICS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#135">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#126">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_errors_summary_by_user_by_error"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#294">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#160">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_waits_summary_by_host_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#283">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$host_summary_by_stages"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#89">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#help_category"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#194">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#187">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#replication_applier_configuration"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#148">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_transactions_current"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#242">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#memory_by_host_by_current_bytes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#69">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#290">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$io_global_by_file_by_bytes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#317">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#318">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$user_summary_by_file_io"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#280">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$host_summary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#144">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#262">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#statements_with_errors_or_warnings"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#206">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#setup_instruments"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#52">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#23">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#97">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#170">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#197">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#150">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_transactions_history_long"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#296">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$memory_by_thread_by_current_bytes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#76">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#USER_PRIVILEGES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#135">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_stages_summary_global_by_event_name"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#39">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_TABLES"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#269">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#user_summary_by_file_io"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#233">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#innodb_buffer_stats_by_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#55">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#237">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#io_global_by_file_by_bytes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#230">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#host_summary_by_stages"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#124">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#events_errors_summary_by_host_by_error"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#317">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$user_summary"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#269">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#20">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#INNODB_CMPMEM"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#217">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#table_io_waits_summary_by_index_usage"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#207">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#241">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#56">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#ROLE_COLUMN_GRANTS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#235">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#188">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#61">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#SCHEMATA_EXTENSIONS"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#198">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#replication_group_members"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#322">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#x$user_summary_by_statement_type"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#295">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#238">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#53">
+    <ns0:TABLE_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/tables#PROFILING"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/tables#206">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/tables#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+</rdf:RDF>

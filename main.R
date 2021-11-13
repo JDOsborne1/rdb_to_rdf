@@ -25,7 +25,7 @@ schemas <- dbGetQuery(conn,  'select "testing_db" as SERVER_NAME, TABLE_SCHEMA f
 
 schemas
 
-tables <- dbGetQuery(conn, 'select TABLE_SCHEMA as object, "has_table" as predicate, TABLE_NAME as subject from INFORMATION_SCHEMA.TABLES')
+tables <- dbGetQuery(conn, 'select TABLE_SCHEMA, TABLE_NAME from INFORMATION_SCHEMA.TABLES')
 
 tables
 
@@ -80,5 +80,27 @@ schemas_construct
 
 rdf_serialize(schemas_construct, "schemas_test.rdf", format = 'rdfxml')
 
+### Tables 
+
+tables_refined <- tables %>%
+	rowid_to_column("subject") %>%
+	mutate(
+	       subject = paste0("http://example.com/tables#", subject)
+	       , SCHEMA_NAME = paste0("http://example.com/schemas#", TABLE_SCHEMA)
+	       , TABLE_NAME = paste0("http://example.com/tables#", TABLE_NAME)
+	       )%>%
+	select(subject, TABLE_NAME, SCHEMA_NAME) %>%
+	pivot_longer(names_to = 'predicate', values_to = 'object', -subject) %>%
+	mutate(predicate = paste0("http://example.com/tables#", predicate))
+
+tables_refined
+
+tables_construct  <- rdf()
+
+pmap(list(tables_refined$subject, tables_refined$predicate, tables_refined$object), rdf_add, rdf = tables_construct)
+
+tables_construct
+
+rdf_serialize(tables_construct, "tables_test.rdf", format = 'rdfxml')
 
 
