@@ -33,4 +33,14 @@ columns <- dbGetQuery(conn, 'select TABLE_NAME as object, "has_column" as relati
 
 columns
 
+constraints_destination <- dbGetQuery(conn, 'select COLUMN_NAME as object, "is_constrained_by" as relation, CONSTRAINT_NAME as predicate from INFORMATION_SCHEMA.KEY_COLUMN_USAGE')
+
+constraints_destination
+
+constraints_source <- dbGetQuery(conn, 'select REFERENCED_COLUMN_NAME as object, "is_constraint_of" as relation, CONSTRAINT_NAME as predicate from INFORMATION_SCHEMA.KEY_COLUMN_USAGE where REFERENCED_COLUMN_NAME is not null')
+
+constraints_source
+
+
+
 
