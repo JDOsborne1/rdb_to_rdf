@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xml:base="localhost://">
+  <rdf:Description rdf:about="http://example.com/schemas#2">
+    <ns0:SERVER_NAME xmlns:ns0="http://example.com/schemas#" rdf:resource="http://example.com/servers#testing_db"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/schemas#4">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/schemas#" rdf:resource="http://example.com/schemas#sys"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/schemas#1">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/schemas#" rdf:resource="http://example.com/schemas#information_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/schemas#3">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/schemas#" rdf:resource="http://example.com/schemas#performance_schema"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/schemas#4">
+    <ns0:SERVER_NAME xmlns:ns0="http://example.com/schemas#" rdf:resource="http://example.com/servers#testing_db"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/schemas#3">
+    <ns0:SERVER_NAME xmlns:ns0="http://example.com/schemas#" rdf:resource="http://example.com/servers#testing_db"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/schemas#1">
+    <ns0:SERVER_NAME xmlns:ns0="http://example.com/schemas#" rdf:resource="http://example.com/servers#testing_db"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.com/schemas#2">
+    <ns0:SCHEMA_NAME xmlns:ns0="http://example.com/schemas#" rdf:resource="http://example.com/schemas#mysql"/>
+  </rdf:Description>
+</rdf:RDF>
