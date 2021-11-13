@@ -29,4 +29,8 @@ tables <- dbGetQuery(conn, 'select TABLE_SCHEMA as object, "has_table" as relati
 
 tables
 
+columns <- dbGetQuery(conn, 'select TABLE_NAME as object, "has_column" as relation, COLUMN_NAME as predicate from INFORMATION_SCHEMA.COLUMNS')
+
+columns
+
 
