@@ -9,6 +9,9 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: example
+    ports:
+      - 8000:8080
+      - 3306:3306
 
   adminer:
     image: adminer
