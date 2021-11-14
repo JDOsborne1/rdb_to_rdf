@@ -29,9 +29,10 @@ tables <- dbGetQuery(conn, 'select TABLE_SCHEMA, TABLE_NAME from INFORMATION_SCH
 
 tables
 
-columns <- dbGetQuery(conn, 'select TABLE_NAME, COLUMN_NAME from INFORMATION_SCHEMA.COLUMNS')
+columns <- dbGetQuery(conn, 'select TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME from INFORMATION_SCHEMA.COLUMNS')
 
 columns                                 
+
 constraints <- dbGetQuery(conn, 'select REFERENCED_TABLE_SCHEMA, REFERENCED_TABLE_NAME, REFERENCED_COLUMN_NAME, CONSTRAINT_NAME, TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME from INFORMATION_SCHEMA.KEY_COLUMN_USAGE') 
 
 
@@ -41,13 +42,13 @@ constraints <- dbGetQuery(conn, 'select REFERENCED_TABLE_SCHEMA, REFERENCED_TABL
 constraints_refined <- constraints %>%
 	rowid_to_column("subject") %>%
 	mutate(
-	       subject = paste0("http://example.com/constraints#", subject)
-	       , constrained_column = paste0("http://example.com/", TABLE_SCHEMA, "/", TABLE_NAME ,"/", COLUMN_NAME)
-	       , constraining_column = paste0("http://example.com/", REFERENCED_TABLE_SCHEMA, "/", REFERENCED_TABLE_NAME ,"/", REFERENCED_COLUMN_NAME)
+	       subject = paste0("http://example.com/constraint#", subject)
+	       , constrained_column = paste0("http://example.com/schema#", TABLE_SCHEMA, "/table#", TABLE_NAME ,"/column#", COLUMN_NAME)
+	       , constraining_column = paste0("http://example.com/schema#", REFERENCED_TABLE_SCHEMA, "/table#", REFERENCED_TABLE_NAME ,"/column#", REFERENCED_COLUMN_NAME)
 	       )%>%
 	select(subject, constraining_column, constrained_column) %>%
 	pivot_longer(names_to = 'predicate', values_to = 'object', -subject) %>%
-	mutate(predicate = paste0("http://example.com/constraints#", predicate))
+	mutate(predicate = paste0("http://example.com/constraint#", predicate))
 
 constraints_construct  <- rdf()
 
@@ -62,13 +63,12 @@ rdf_serialize(constraints_construct, "constraints_test.rdf", format = 'rdfxml')
 schemas_refined <- schemas %>%
 	rowid_to_column("subject") %>%
 	mutate(
-	       subject = paste0("http://example.com/schemas#", subject)
-	       , SCHEMA_NAME = paste0("http://example.com/schemas#", TABLE_SCHEMA)
-	       , SERVER_NAME = paste0("http://example.com/servers#", SERVER_NAME)
+	       subject = paste0("http://example.com/schema#", TABLE_SCHEMA)
+	       , SERVER_NAME = paste0("http://example.com/server#", SERVER_NAME)
 	       )%>%
-	select(subject, SERVER_NAME, SCHEMA_NAME) %>%
+	select(subject, SERVER_NAME) %>%
 	pivot_longer(names_to = 'predicate', values_to = 'object', -subject) %>%
-	mutate(predicate = paste0("http://example.com/schemas#", predicate))
+	mutate(predicate = paste0("http://example.com/schema#", predicate))
 
 schemas_refined
 
@@ -85,13 +85,12 @@ rdf_serialize(schemas_construct, "schemas_test.rdf", format = 'rdfxml')
 tables_refined <- tables %>%
 	rowid_to_column("subject") %>%
 	mutate(
-	       subject = paste0("http://example.com/tables#", subject)
-	       , SCHEMA_NAME = paste0("http://example.com/schemas#", TABLE_SCHEMA)
-	       , TABLE_NAME = paste0("http://example.com/tables#", TABLE_NAME)
+	       subject = paste0("http://example.com/", TABLE_SCHEMA, "/table#", TABLE_NAME)
+	       , SCHEMA_NAME = paste0("http://example.com/schema#", TABLE_SCHEMA)
 	       )%>%
 	select(subject, TABLE_NAME, SCHEMA_NAME) %>%
 	pivot_longer(names_to = 'predicate', values_to = 'object', -subject) %>%
-	mutate(predicate = paste0("http://example.com/tables#", predicate))
+	mutate(predicate = paste0("http://example.com/table#", predicate))
 
 tables_refined
 
@@ -109,13 +108,12 @@ rdf_serialize(tables_construct, "tables_test.rdf", format = 'rdfxml')
 columns_refined <- columns %>%
 	rowid_to_column("subject") %>%
 	mutate(
-	       subject = paste0("http://example.com/columns#", subject)
-	       , COLUMN_NAME = paste0("http://example.com/columns#", COLUMN_NAME)
-	       , TABLE_NAME = paste0("http://example.com/tables#", TABLE_NAME)
+	       subject = paste0("http://example.com/schema#",TABLE_SCHEMA ,"/table#",TABLE_NAME ,"/column#", COLUMN_NAME)
+	       , TABLE_NAME = paste0("http://example.com/schema#", TABLE_SCHEMA,  "/table#", TABLE_NAME)
 	       )%>%
 	select(subject, COLUMN_NAME, TABLE_NAME) %>%
 	pivot_longer(names_to = 'predicate', values_to = 'object', -subject) %>%
-	mutate(predicate = paste0("http://example.com/columns#", predicate))
+	mutate(predicate = paste0("http://example.com/column#", predicate))
 
 columns_refined
 
