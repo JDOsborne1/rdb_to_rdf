@@ -55,6 +55,7 @@ constraints_construct  <- rdf()
 pmap(list(constraints_refined$subject, constraints_refined$predicate, constraints_refined$object), rdf_add, rdf = constraints_construct)
 
 constraints_construct
+	       
 
 rdf_serialize(constraints_construct, "constraints_test.rdf", format = 'rdfxml')
 
@@ -64,9 +65,9 @@ schemas_refined <- schemas %>%
 	rowid_to_column("subject") %>%
 	mutate(
 	       subject = paste0("http://example.com/schema#", TABLE_SCHEMA)
-	       , SERVER_NAME = paste0("http://example.com/server#", SERVER_NAME)
+	       , SERVER_LINK = paste0("http://example.com/server#", SERVER_NAME)
 	       )%>%
-	select(subject, SERVER_NAME) %>%
+	select(subject, SERVER_LINK, SCHEMA_NAME = TABLE_SCHEMA) %>%
 	pivot_longer(names_to = 'predicate', values_to = 'object', -subject) %>%
 	mutate(predicate = paste0("http://example.com/schema#", predicate))
 
@@ -86,9 +87,9 @@ tables_refined <- tables %>%
 	rowid_to_column("subject") %>%
 	mutate(
 	       subject = paste0("http://example.com/", TABLE_SCHEMA, "/table#", TABLE_NAME)
-	       , SCHEMA_NAME = paste0("http://example.com/schema#", TABLE_SCHEMA)
+	       , SCHEMA_LINK = paste0("http://example.com/schema#", TABLE_SCHEMA)
 	       )%>%
-	select(subject, TABLE_NAME, SCHEMA_NAME) %>%
+	select(subject, TABLE_NAME, SCHEMA_LINK) %>%
 	pivot_longer(names_to = 'predicate', values_to = 'object', -subject) %>%
 	mutate(predicate = paste0("http://example.com/table#", predicate))
 
@@ -109,9 +110,9 @@ columns_refined <- columns %>%
 	rowid_to_column("subject") %>%
 	mutate(
 	       subject = paste0("http://example.com/schema#",TABLE_SCHEMA ,"/table#",TABLE_NAME ,"/column#", COLUMN_NAME)
-	       , TABLE_NAME = paste0("http://example.com/schema#", TABLE_SCHEMA,  "/table#", TABLE_NAME)
+	       , TABLE_LINK = paste0("http://example.com/schema#", TABLE_SCHEMA,  "/table#", TABLE_NAME)
 	       )%>%
-	select(subject, COLUMN_NAME, TABLE_NAME) %>%
+	select(subject, COLUMN_NAME, TABLE_LINK) %>%
 	pivot_longer(names_to = 'predicate', values_to = 'object', -subject) %>%
 	mutate(predicate = paste0("http://example.com/column#", predicate))
 
