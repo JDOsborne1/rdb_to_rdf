@@ -28,3 +28,7 @@ strong_library("DBI")
 strong_library("odbc")
 strong_library("RMariaDB")
 
+# String Processing packages
+
+strong_library("glue")
+

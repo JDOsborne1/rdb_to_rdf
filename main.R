@@ -146,5 +146,36 @@ d <- SPARQL(
 )
 
 print(d)
- 
-### Generate Links
+
+tbl_cols_string <- d %>%
+	{.[[1]]} %>%
+	filter(table_name == 'TABLES_EXTENSIONS') %>%
+	mutate(tbl_cells = glue("<tr><td port ='{row_number()}'>{column_name}</td></tr>")) %>%
+	pull(tbl_cells)
+
+
+tbl_leader_string <- 'TABLES_EXTENSIONS [label=<
+	<table border="0" cellborder="1" cellspacing="0">
+	<tr><td>-----TABLES_EXTENSIONS-----</td></tr>
+	'
+
+tbl_follower_string <- '</table>>];'
+
+
+full_tbl_string <- glue_collapse(c(tbl_leader_string,tbl_cols_string,tbl_follower_string), sep="\n")
+
+
+graph_leader_string <- 'digraph{
+	graph [pad="0.5", nodesep="0.5", ranksep="2"];
+	node [shape=plain]
+	rankdir=LR;
+'
+
+graph_follower_string <- "}"
+
+
+full_graph_string <- glue_collapse(c(graph_leader_string, full_tbl_string, graph_follower_string), sep = "\n")
+
+writeLines(full_graph_string, "graph_test.txt")
+
+## Generate Links
