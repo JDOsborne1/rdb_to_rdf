@@ -2,12 +2,11 @@
 
 source(here::here("R/packages.R"))
 
-
 ## Connect to SPARQL Server
 
 d <- SPARQL(
 	    url="localhost:3030/test_ds"
-	    , query="SELECT * WHERE { ?s ?p ?o . } LIMIT 10"
+	    , query="SELECT distinct ?p WHERE { ?s ?p ?o . }"
 	    , ns=c(c('constraints','<http://example.com/constraints#>'), c('ex', 'http://example.com/'))
 )
 
@@ -86,7 +85,7 @@ rdf_serialize(schemas_construct, "schemas_test.rdf", format = 'rdfxml')
 tables_refined <- tables %>%
 	rowid_to_column("subject") %>%
 	mutate(
-	       subject = paste0("http://example.com/", TABLE_SCHEMA, "/table#", TABLE_NAME)
+	       subject = paste0("http://example.com/schema#", TABLE_SCHEMA, "/table#", TABLE_NAME)
 	       , SCHEMA_LINK = paste0("http://example.com/schema#", TABLE_SCHEMA)
 	       )%>%
 	select(subject, TABLE_NAME, SCHEMA_LINK) %>%
@@ -126,4 +125,26 @@ columns_construct
 
 rdf_serialize(columns_construct, "columns_test.rdf", format = 'rdfxml')
 
+## Generate GraphViz for relational diagram
 
+### Generate Table Forms
+## Connect to SPARQL Server
+
+d <- SPARQL(
+	    url="localhost:3030/test_ds"
+	    , query="
+		PREFIX table:  <http://example.com/table#>
+		PREFIX column: <http://example.com/column#>
+
+		SELECT ?column ?table ?column_name ?table_name
+		WHERE {
+    			?column column:TABLE_LINK ?table  .    
+		  	?column column:COLUMN_NAME ?column_name .
+  			?table table:TABLE_NAME ?table_name .
+		}
+	"
+)
+
+print(d)
+ 
+### Generate Links
