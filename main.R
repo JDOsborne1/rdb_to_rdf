@@ -1,6 +1,9 @@
 # Main Process
 
 source(here::here("R/packages.R"))
+source(here::here("R/render_functions.R"))
+
+
 
 ## Connect to SPARQL Server
 
@@ -127,55 +130,11 @@ rdf_serialize(columns_construct, "columns_test.rdf", format = 'rdfxml')
 
 ## Generate GraphViz for relational diagram
 
-### Generate Table Forms
-## Connect to SPARQL Server
 
-d <- SPARQL(
-	    url="localhost:3030/test_ds"
-	    , query="
-		PREFIX table:  <http://example.com/table#>
-		PREFIX column: <http://example.com/column#>
+table_store <- schm_get_tables(.from_sparql_endpoint = 'localhost:3030/test_ds')
 
-		SELECT ?column ?table ?column_name ?table_name
-		WHERE {
-    			?column column:TABLE_LINK ?table  .    
-		  	?column column:COLUMN_NAME ?column_name .
-  			?table table:TABLE_NAME ?table_name .
-		}
-	"
-)
+test_table <- pure_create_table_DOT(.using_table='TABLES_EXTENSIONS', .from_table_store = table_store)
 
-print(d)
-
-tbl_cols_string <- d %>%
-	{.[[1]]} %>%
-	filter(table_name == 'TABLES_EXTENSIONS') %>%
-	mutate(tbl_cells = glue("<tr><td port ='{row_number()}'>{column_name}</td></tr>")) %>%
-	pull(tbl_cells)
-
-
-tbl_leader_string <- 'TABLES_EXTENSIONS [label=<
-	<table border="0" cellborder="1" cellspacing="0">
-	<tr><td>-----TABLES_EXTENSIONS-----</td></tr>
-	'
-
-tbl_follower_string <- '</table>>];'
-
-
-full_tbl_string <- glue_collapse(c(tbl_leader_string,tbl_cols_string,tbl_follower_string), sep="\n")
-
-
-graph_leader_string <- 'digraph{
-	graph [pad="0.5", nodesep="0.5", ranksep="2"];
-	node [shape=plain]
-	rankdir=LR;
-'
-
-graph_follower_string <- "}"
-
-
-full_graph_string <- glue_collapse(c(graph_leader_string, full_tbl_string, graph_follower_string), sep = "\n")
-
-writeLines(full_graph_string, "graph_test.txt")
-
+pure_create_ERD_DOT(.using_tables = test_table) %>%
+	 writeLines("test_tbl_2.txt")
 ## Generate Links
