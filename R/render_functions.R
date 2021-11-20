@@ -99,7 +99,7 @@ pure_create_relation_DOT <- function(.using_relations_store){
 
 
 
-pure_create_ERD_DOT <- function(.using_tables){
+pure_create_ERD_DOT <- function(.using_tables, .using_relations = ''){
 graph_leader_string <- 'digraph{
 	graph [pad="0.5", nodesep="0.5", ranksep="2"];
 	node [shape=plain]
@@ -110,7 +110,15 @@ graph_follower_string <- "}"
 
 all_graphs_string <- glue_collapse(.using_tables, sep = '\n\n')
 
-full_graph_string <- glue_collapse(c(graph_leader_string,all_graphs_string, graph_follower_string), sep = "\n")
+full_graph_string <- glue_collapse(
+				   c(
+				     graph_leader_string
+				     , all_graphs_string
+				     , .using_relations
+				     , graph_follower_string
+				   )
+				   , sep = "\n"
+)
 
 full_graph_string
 }
