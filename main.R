@@ -53,17 +53,21 @@ rdf_serialize(tables_construct, "tables_test.rdf", format = 'rdfxml')
 columns_construct <- schm_construct_rdf_of_columns(.in = conn)
 rdf_serialize(columns_construct, "columns_test.rdf", format = 'rdfxml')
 
-## Generate GraphViz for relational diagram
+## Generate GraphViz for ERD
 
-
+### Generate the tables
 table_store <- schm_get_tables(.from_sparql_endpoint = 'localhost:3030/test_ds')
 
 test_table <- pure_create_table_DOT(.using_table='employees', .from_table_store = table_store)
 
 test_table2 <- pure_create_table_DOT(.using_table='dept_emp', .from_table_store = table_store)
+### Generate Links
 
+
+
+### Display/Write DOT
 pure_create_ERD_DOT(
 		    .using_tables = c(test_table, test_table2)
 		    ) %>%
 	 writeLines("test_tbl_2.txt")
-## Generate Links
+
