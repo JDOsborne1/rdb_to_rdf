@@ -39,16 +39,16 @@ d <- SPARQL(
 			   SELECT distinct ?con_col ?con_dest_col ?table_name ?table_dest_name
 			   WHERE {
 				   ?con constraint:constrained_column ?con_col .
-				   ?con constraint:constraining_column ?con_dest_col .
+				   ?com constraint:constraining_column ?con_dest_col .
 				   ?con constraint:constraint_name ?con_name .
-				   ?con constraint:constraint_class constraint:[.of_class] .
+				   ?con constraint:constraint_class constraint:FOREIGN_KEY .
 				   ?con constraint:constraint_class ?con_class .
 				   ?con_col  column:TABLE_LINK ?table .
-				   ?con_dest_col column:TABLE_LINK ?table_dest .
 				   ?table table:SCHEMA_LINK ?schema .
 				   ?table table:TABLE_NAME ?table_name .
-				   ?table_dest table:TABLE_NAME ?table_dest_name
-				   ?schema schema:SCHEMA_NAME "employees" . 
+				   ?con_dest_col column:TABLE_LINK ?table_dest .
+				   ?table_dest table:TABLE_NAME ?table_dest_name .
+				   ?schema schema:SCHEMA_NAME "employees" 
 			   }'
 			   , .open = '['
 			   , .close = ']'
@@ -84,6 +84,19 @@ full_tbl_string <- glue_collapse(c(tbl_leader_string,tbl_cols_string,tbl_followe
 full_tbl_string
 
 }
+
+pure_create_relation_DOT <- function(.using_relations_store){
+	.using_relations_store %>%
+		mutate(
+	       		link_string = glue("{table_name}:{digest(con_col)} -> {table_dest_name}:{digest(con_dest_col)}")	       
+		) %>%
+		pull(link_string) %>%
+		glue_collapse(sep = "\n")	
+
+}
+
+
+
 
 
 pure_create_ERD_DOT <- function(.using_tables){
