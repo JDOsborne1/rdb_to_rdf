@@ -64,7 +64,7 @@ pure_create_table_DOT <- function(.using_table, .from_table_store){
 
 tbl_cols_string <- .from_table_store %>%
 	filter(table_name == .using_table) %>%
-	mutate(tbl_cells = glue("<tr><td port ='{row_number()}'>{column_name}</td></tr>")) %>%
+	mutate(tbl_cells = glue("<tr><td port ='{digest(column)}'>{column_name}</td></tr>")) %>%
 	pull(tbl_cells)
 
 
@@ -79,6 +79,7 @@ tbl_follower_string <- '</table>>];'
 full_tbl_string <- glue_collapse(c(tbl_leader_string,tbl_cols_string,tbl_follower_string), sep="\n")
 
 full_tbl_string
+
 }
 
 

@@ -31,4 +31,4 @@ strong_library("RMariaDB")
 # String Processing packages
 
 strong_library("glue")
-
+strong_library("digest")
