@@ -5,21 +5,26 @@
 ### Generate Table Forms
 ## Connect to SPARQL Server
 
-schm_get_tables <- function(.from_sparql_endpoint) {
+schm_get_tables <- function(.from_sparql_endpoint, .using_schema) {
 
 d <- SPARQL(
 	    url= .from_sparql_endpoint
-	    , query="
+	    , query=glue("
 		PREFIX table:  <http://example.com/table#>
 		PREFIX column: <http://example.com/column#>
-
+		PREFIX schema: <http://example.com/schema#>
+		
 		SELECT ?column ?table ?column_name ?table_name
 		WHERE {
     			?column column:TABLE_LINK ?table  .    
 		  	?column column:COLUMN_NAME ?column_name .
   			?table table:TABLE_NAME ?table_name .
+			?table table:SCHEMA_LINK ?schema .
+			?schema schema:SCHEMA_NAME '[.using_schema]'
 		}
-	"
+		" 
+		, .open = '['
+		, .close = ']')
 )
 
 d[[1]] 
@@ -27,11 +32,11 @@ d[[1]]
 }
 
 ### Generating the links
-schm_get_relations <- function(.from_sparql_endpoint, .of_class = 'FOREIGN_KEY') {
+schm_get_relations <- function(.from_sparql_endpoint, .of_class = 'FOREIGN_KEY', .using_schema) {
 
 d <- SPARQL(
 	    url= .from_sparql_endpoint
-	    , query = glue('PREFIX table:  <http://example.com/table#>
+	    , query = glue("PREFIX table:  <http://example.com/table#>
 			   PREFIX column: <http://example.com/column#>
 			   PREFIX constraint: <http://example.com/constraint#>
 			   PREFIX schema: <http://example.com/schema#>
@@ -41,15 +46,15 @@ d <- SPARQL(
 				   ?con constraint:constrained_column ?con_col .
 				   ?com constraint:constraining_column ?con_dest_col .
 				   ?con constraint:constraint_name ?con_name .
-				   ?con constraint:constraint_class constraint:FOREIGN_KEY .
+				   ?con constraint:constraint_class constraint:[.of_class] .
 				   ?con constraint:constraint_class ?con_class .
 				   ?con_col  column:TABLE_LINK ?table .
 				   ?table table:SCHEMA_LINK ?schema .
+				   ?schema schema:SCHEMA_NAME '[.using_schema]' .
 				   ?table table:TABLE_NAME ?table_name .
 				   ?con_dest_col column:TABLE_LINK ?table_dest .
 				   ?table_dest table:TABLE_NAME ?table_dest_name .
-				   ?schema schema:SCHEMA_NAME "employees" 
-			   }'
+			   }"
 			   , .open = '['
 			   , .close = ']'
 	    )
@@ -114,6 +119,7 @@ pure_create_relation_table_DOT <- function(.using_relations_store){
 		       , link_string = glue("{origin_reference} -> {destination_reference}")	       
 		       	) %>%
 		pull(link_string) %>%
+		unique() %>%
 		glue_collapse(sep = "\n")	
 
 }
