@@ -26,6 +26,38 @@ d[[1]]
 
 }
 
+### Generating the links
+schm_get_relations <- function(.from_sparql_endpoint, .of_class = 'FOREIGN_KEY') {
+
+d <- SPARQL(
+	    url= .from_sparql_endpoint
+	    , query = glue('PREFIX table:  <http://example.com/table#>
+			   PREFIX column: <http://example.com/column#>
+			   PREFIX constraint: <http://example.com/constraint#>
+			   PREFIX schema: <http://example.com/schema#>
+
+			   SELECT distinct ?con_col ?con_dest_col
+			   WHERE {
+				   ?con constraint:constrained_column ?con_col .
+				   ?con constraint:constraining_column ?con_dest_col .
+				   ?con constraint:constraint_name ?con_name .
+				   ?con constraint:constraint_class constraint:[.of_class] .
+				   ?con constraint:constraint_class ?con_class .
+				   ?con_col  column:TABLE_LINK ?table .
+				   ?table table:SCHEMA_LINK ?schema .
+				   ?schema schema:SCHEMA_NAME "employees" . 
+			   }'
+			   , .open = '['
+			   , .close = ']'
+	    )
+)
+
+d[[1]] 
+
+}
+
+
+
 ### Rendering results
 
 pure_create_table_DOT <- function(.using_table, .from_table_store){
