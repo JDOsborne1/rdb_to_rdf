@@ -59,8 +59,9 @@ graph_leader_string <- 'digraph{
 
 graph_follower_string <- "}"
 
+all_graphs_string <- glue_collapse(.using_tables, sep = '\n\n')
 
-full_graph_string <- glue_collapse(c(graph_leader_string,.using_tables, graph_follower_string), sep = "\n")
+full_graph_string <- glue_collapse(c(graph_leader_string,all_graphs_string, graph_follower_string), sep = "\n")
 
 full_graph_string
 }
