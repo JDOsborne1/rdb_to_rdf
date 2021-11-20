@@ -77,21 +77,51 @@ schm_construct_rdf_of_constraints <- function(.in = conn){
 
 constraints <- dbGetQuery(.in, 'select REFERENCED_TABLE_SCHEMA, REFERENCED_TABLE_NAME, REFERENCED_COLUMN_NAME, CONSTRAINT_NAME, TABLE_SCHEMA, TABLE_NAME, COLUMN_NAME from INFORMATION_SCHEMA.KEY_COLUMN_USAGE') 
 
-
-constraints_refined <- constraints %>%
+constraints_refined_primary <- constraints %>%
 	rowid_to_column("subject") %>%
+	filter(is.na(REFERENCED_TABLE_SCHEMA)) %>%
+	mutate(
+	       subject = paste0("http://example.com/constraint#", subject)
+	       , constrained_column = paste0("http://example.com/schema#", TABLE_SCHEMA, "/table#", TABLE_NAME ,"/column#", COLUMN_NAME)
+	       , constraint_class = paste0("http://example.com/constraint#", "PRIMARY_KEY")
+	       , constraint_name = paste0("http://example.com/constraint#", CONSTRAINT_NAME) 
+	       )%>%
+	select(subject,  constrained_column, constraint_class, constraint_name) %>%
+	pivot_longer(names_to = 'predicate', values_to = 'object', -subject) %>%
+	mutate(predicate = paste0("http://example.com/constraint#", predicate))
+
+
+
+constraints_refined_foreign <- constraints %>%
+	rowid_to_column("subject") %>%
+	filter(!is.na(REFERENCED_TABLE_SCHEMA)) %>%
 	mutate(
 	       subject = paste0("http://example.com/constraint#", subject)
 	       , constrained_column = paste0("http://example.com/schema#", TABLE_SCHEMA, "/table#", TABLE_NAME ,"/column#", COLUMN_NAME)
 	       , constraining_column = paste0("http://example.com/schema#", REFERENCED_TABLE_SCHEMA, "/table#", REFERENCED_TABLE_NAME ,"/column#", REFERENCED_COLUMN_NAME)
+	       , constraint_class = paste0("http://example.com/constraint#", "FOREIGN_KEY") 
+	       , constraint_name = paste0("http://example.com/constraint#", CONSTRAINT_NAME) 
 	       )%>%
-	select(subject, constraining_column, constrained_column) %>%
+	select(subject, constraining_column, constrained_column, constraint_class, constraint_name) %>%
 	pivot_longer(names_to = 'predicate', values_to = 'object', -subject) %>%
 	mutate(predicate = paste0("http://example.com/constraint#", predicate))
 
+constraints_refined_full <- rbind(
+				  constraints_refined_primary
+				  , constraints_refined_foreign
+)
+
 constraints_construct  <- rdf()
 
-pmap(list(constraints_refined$subject, constraints_refined$predicate, constraints_refined$object), rdf_add, rdf = constraints_construct)
+pmap(
+     list(
+	  constraints_refined_full$subject
+	, constraints_refined_full$predicate
+	, constraints_refined_full$object
+     )
+     , rdf_add
+     , rdf = constraints_construct
+)
 
 constraints_construct
 	       
