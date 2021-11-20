@@ -63,33 +63,56 @@ d[[1]]
 
 ### Rendering results
 
+pure_create_column_DOT <- function(column_uri, column_name){
+	uri_digest <- column_uri %>% 
+		as.character() %>%
+	       	digest()	
+	
+	"<tr><td port ='{uri_digest}'>{column_name}</td></tr>" %>%
+		glue() %>%
+		as.character()
+}
+
 pure_create_table_DOT <- function(.using_table, .from_table_store){
 
-tbl_cols_string <- .from_table_store %>%
-	filter(table_name == .using_table) %>%
-	mutate(tbl_cells = glue("<tr><td port ='{digest(column)}'>{column_name}</td></tr>")) %>%
-	pull(tbl_cells)
+	tbl_cols_string <- .from_table_store %>%
+		filter(table_name == .using_table) %>%
+		mutate(tbl_cells = map2_chr(column, column_name, pure_create_column_DOT)) %>%
+		pull(tbl_cells)
 
 
-tbl_leader_string <- glue('{.using_table} [label=<
-	<table border="0" cellborder="1" cellspacing="0">
-	<tr><td>----- {.using_table} -----</td></tr>
-	')
+	tbl_leader_string <- glue('{.using_table} [label=<
+				  <table border="0" cellborder="1" cellspacing="0">
+				  <tr><td>----- {.using_table} -----</td></tr>
+				  ')
 
-tbl_follower_string <- '</table>>];'
+	tbl_follower_string <- '</table>>];'
 
 
-full_tbl_string <- glue_collapse(c(tbl_leader_string,tbl_cols_string,tbl_follower_string), sep="\n")
+	full_tbl_string <- glue_collapse(c(tbl_leader_string,tbl_cols_string,tbl_follower_string), sep="\n")
 
-full_tbl_string
+	full_tbl_string
 
 }
 
-pure_create_relation_DOT <- function(.using_relations_store){
+pure_create_column_reference <- function(table_name, column_uri) {
+	uri_digest  <- column_uri %>%
+		as.character() %>%
+		digest()
+
+	"{table_name}:{uri_digest}" %>%
+		glue() %>%
+		as.character()
+}
+
+
+pure_create_relation_table_DOT <- function(.using_relations_store){
 	.using_relations_store %>%
 		mutate(
-	       		link_string = glue("{table_name}:{digest(con_col)} -> {table_dest_name}:{digest(con_dest_col)}")	       
-		) %>%
+		       origin_reference = map2_chr(table_name, con_col, pure_create_column_reference)
+		       , destination_reference = map2_chr(table_dest_name, con_dest_col, pure_create_column_reference)
+		       , link_string = glue("{origin_reference} -> {destination_reference}")	       
+		       	) %>%
 		pull(link_string) %>%
 		glue_collapse(sep = "\n")	
 

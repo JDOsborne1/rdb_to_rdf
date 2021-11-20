@@ -61,13 +61,20 @@ table_store <- schm_get_tables(.from_sparql_endpoint = 'localhost:3030/test_ds')
 test_table <- pure_create_table_DOT(.using_table='employees', .from_table_store = table_store)
 
 test_table2 <- pure_create_table_DOT(.using_table='dept_emp', .from_table_store = table_store)
+test_table3 <- pure_create_table_DOT(.using_table='departments', .from_table_store = table_store)
+test_table4 <- pure_create_table_DOT(.using_table='dept_manager', .from_table_store = table_store)
+
+
+
 ### Generate Links
+relations_store <- schm_get_relations(.from_sparql_endpoint = 'localhost:3030/test_ds')
 
-
+relations_dot <- pure_create_relation_table_DOT(.using_relations_store = relations_store)
 
 ### Display/Write DOT
 pure_create_ERD_DOT(
-		    .using_tables = c(test_table, test_table2)
+		    .using_tables = c(test_table, test_table2, test_table3, test_table4)
+		    , .using_relations = relations_dot
 		    ) %>%
 	 writeLines("test_tbl_2.txt")
 
