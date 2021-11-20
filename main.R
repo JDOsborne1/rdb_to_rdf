@@ -10,10 +10,16 @@ source(here::here("R/rdf_constructor_function.R"))
 d <- SPARQL(
 	    url="localhost:3030/test_ds"
 	    , query="SELECT distinct ?p WHERE { ?s ?p ?o . }"
-	    , ns=c(c('constraints','<http://example.com/constraints#>'), c('ex', 'http://example.com/'))
+	    , ns=c(
+		   c('constraint','<http://example.com/constraint#>')
+		   , c('column','<http://example.com/column#>')
+		   , c('table', '<http://example.com/table#>')
+		   , c('schema', '<http://example.com/schema#>')
+		   ##, c('ex', 'http://example.com/')
+	    )
 )
 
-print(d)
+print(d$results)
 
 ## Connect to MySQL Server
 
