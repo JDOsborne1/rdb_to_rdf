@@ -2,7 +2,7 @@
 
 source(here::here("R/packages.R"))
 source(here::here("R/render_functions.R"))
-source(here::here("R/rdf_constructor_functions.R"))
+source(here::here("R/rdf_constructor_function.R"))
 
 
 ## Connect to SPARQL Server
