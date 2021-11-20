@@ -36,7 +36,7 @@ d <- SPARQL(
 			   PREFIX constraint: <http://example.com/constraint#>
 			   PREFIX schema: <http://example.com/schema#>
 
-			   SELECT distinct ?con_col ?con_dest_col
+			   SELECT distinct ?con_col ?con_dest_col ?table_name ?table_dest_name
 			   WHERE {
 				   ?con constraint:constrained_column ?con_col .
 				   ?con constraint:constraining_column ?con_dest_col .
@@ -44,7 +44,10 @@ d <- SPARQL(
 				   ?con constraint:constraint_class constraint:[.of_class] .
 				   ?con constraint:constraint_class ?con_class .
 				   ?con_col  column:TABLE_LINK ?table .
+				   ?con_dest_col column:TABLE_LINK ?table_dest .
 				   ?table table:SCHEMA_LINK ?schema .
+				   ?table table:TABLE_NAME ?table_name .
+				   ?table_dest table:TABLE_NAME ?table_dest_name
 				   ?schema schema:SCHEMA_NAME "employees" . 
 			   }'
 			   , .open = '['
