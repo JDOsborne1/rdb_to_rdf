@@ -73,7 +73,7 @@ pure_create_column_DOT <- function(column_uri, column_name){
 		as.character() %>%
 	       	digest()	
 	
-	"<tr><td port ='h{uri_digest}'>{column_name}</td></tr>" %>%
+	"<tr><td bgcolor='white' port ='h{uri_digest}'>{column_name}</td></tr>" %>%
 		glue() %>%
 		as.character()
 }
@@ -88,7 +88,7 @@ pure_create_table_DOT <- function(.using_table, .from_table_store){
 
 	tbl_leader_string <- glue('{.using_table} [label=<
 				  <table border="0" cellborder="1" cellspacing="0">
-				  <tr><td>----- {.using_table} -----</td></tr>
+				  <tr><td> {.using_table} </td></tr>
 				  ')
 
 	tbl_follower_string <- '</table>>];'
