@@ -73,7 +73,7 @@ pure_create_column_DOT <- function(column_uri, column_name){
 		as.character() %>%
 	       	digest()	
 	
-	"<tr><td port ='{uri_digest}'>{column_name}</td></tr>" %>%
+	"<tr><td port ='h{uri_digest}'>{column_name}</td></tr>" %>%
 		glue() %>%
 		as.character()
 }
@@ -105,7 +105,7 @@ pure_create_column_reference <- function(table_name, column_uri) {
 		as.character() %>%
 		digest()
 
-	"{table_name}:{uri_digest}" %>%
+	"{table_name}:h{uri_digest}" %>%
 		glue() %>%
 		as.character()
 }
