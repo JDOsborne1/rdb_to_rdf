@@ -11,6 +11,7 @@ strong_library  <- function(...){
 # Structural Packages
 
 ##strong_library("targets")
+strong_library("config")
 
 # data processing packages
 	

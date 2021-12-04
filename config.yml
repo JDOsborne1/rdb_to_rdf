@@ -1,0 +1,5 @@
+default:
+  sql_host: 0.0.0.0
+  sql_port: 3306
+  sql_username: root
+  sql_password: example

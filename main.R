@@ -4,6 +4,7 @@ source(here::here("R/packages.R"))
 source(here::here("R/render_functions.R"))
 source(here::here("R/rdf_constructor_function.R"))
 
+cG <- config::get
 
 ## Connect to SPARQL Server
 
@@ -23,7 +24,14 @@ print(d$results)
 
 ## Connect to MySQL Server
 
-conn  <- dbConnect(MariaDB(), user = 'root', password = 'example', host =  '0.0.0.0', port = '3306')
+
+conn  <- dbConnect(
+		   MariaDB()
+		   , user = cG('sql_username')
+		   , password = cG('sql_password')
+		   , host = cG('sql_host')
+		   , port = cG('sql_port')
+)
 
 dbListObjects(conn)
 
