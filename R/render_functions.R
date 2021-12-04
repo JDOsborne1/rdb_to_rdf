@@ -116,7 +116,7 @@ pure_create_relation_table_DOT <- function(.using_relations_store){
 		mutate(
 		       origin_reference = map2_chr(table_name, con_col, pure_create_column_reference)
 		       , destination_reference = map2_chr(table_dest_name, con_dest_col, pure_create_column_reference)
-		       , link_string = glue("{origin_reference} -> {destination_reference}")	       
+		       , link_string = glue("{destination_reference} -> {origin_reference} [arrowhead=ocrow]")	       
 		       	) %>%
 		pull(link_string) %>%
 		unique() %>%
