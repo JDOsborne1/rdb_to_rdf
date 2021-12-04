@@ -44,7 +44,7 @@ d <- SPARQL(
 			   SELECT distinct ?con_col ?con_dest_col ?table_name ?table_dest_name
 			   WHERE {
 				   ?con constraint:constrained_column ?con_col .
-				   ?com constraint:constraining_column ?con_dest_col .
+				   ?con constraint:constraining_column ?con_dest_col .
 				   ?con constraint:constraint_name ?con_name .
 				   ?con constraint:constraint_class constraint:[.of_class] .
 				   ?con constraint:constraint_class ?con_class .
